@@ -1,6 +1,42 @@
 // Sample data array for the cards
   const cardData = [
   {
+    "actionName": "Shift Emergency Planning to State and Local Governments",
+    "executiveOrder": "Executive Order 14239",
+    "dateIssued": "March 18, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can change how the federal government plans for emergencies and support more local control.",
+    "constitutionalIssues": "Constitutional Issues: Executive Authority, Federalism",
+    "link": "https://www.federalregister.gov/executive-order/14239"
+  },
+  {
+    "actionName": "Cut Funding and Staffing from Selected Federal Agencies",
+    "executiveOrder": "Executive Order 14238",
+    "dateIssued": "March 14, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can reduce certain parts of federal agencies but cannot shut down parts that are required by law without Congress.",
+    "constitutionalIssues": "Constitutional Issues: Separation of Powers, Appropriations Clause",
+    "link": "https://www.federalregister.gov/executive-order/14238"
+  },
+  {
+    "actionName": "Target Paul Weiss Law Firm with Federal Contract and Security Restrictions",
+    "executiveOrder": "Executive Order 14237",
+    "dateIssued": "March 14, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can review contracts and security access, but targeting specific firms raises legal concerns about fairness and discrimination.",
+    "constitutionalIssues": "Constitutional Issues: Due Process (5th Amendment), Equal Protection, Separation of Powers",
+    "link": "https://www.federalregister.gov/executive-order/14237"
+  },
+  {
+    "actionName": "Cancel More Executive Orders from Past Administration",
+    "executiveOrder": "Executive Order 14236",
+    "dateIssued": "March 14, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can revoke previous executive orders unless they rely on laws that require congressional action to change.",
+    "constitutionalIssues": "Constitutional Issues: Executive Authority, Separation of Powers",
+    "link": "https://www.federalregister.gov/executive-order/14236"
+  },
+  {
     "actionName": "Restore Public Service Loan Forgiveness with New Restrictions",
     "executiveOrder": "Executive Order 14235",
     "dateIssued": "March 7, 2025",
