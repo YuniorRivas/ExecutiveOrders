@@ -10,7 +10,7 @@
     "link": "https://www.federalregister.gov/executive-order/14249"
   },
   {
-    "actionName": "Impose New Federal Requirements for Voter ID, Citizenship Checks, and Mail-In Voting",
+    "actionName": "Impose New Federal Requirements for Voting",
     "executiveOrder": "Executive Order 14248",
     "dateIssued": "March 25, 2025",
     "verdict": "No, he can't.",
