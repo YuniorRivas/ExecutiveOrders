@@ -1,12 +1,102 @@
 // Sample data array for the cards
   const cardData = [
   {
+    "actionName": "Strengthen Treasury Oversight of Federal Spending to Prevent Fraud",
+    "executiveOrder": "Executive Order 14249",
+    "dateIssued": "March 25, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can direct agencies to share payment data and improve anti-fraud controls within existing legal frameworks.",
+    "constitutionalIssues": "Legal Issues: Executive Authority, Privacy Protections, Spending Clause",
+    "link": "https://www.federalregister.gov/executive-order/14249"
+  },
+  {
+    "actionName": "Impose New Federal Requirements for Voter ID, Citizenship Checks, and Mail-In Voting",
+    "executiveOrder": "Executive Order 14248",
+    "dateIssued": "March 25, 2025",
+    "verdict": "No, he can't.",
+    "explanation": "Explanation: The President cannot unilaterally rewrite state voting procedures or impose new requirements beyond existing federal law.",
+    "constitutionalIssues": "Legal Issues: Elections Clause, 10th Amendment, Federalism, Separation of Powers",
+    "link": "https://www.federalregister.gov/executive-order/14248"
+  },
+  {
+    "actionName": "Require All Federal Payments to Be Made Electronically",
+    "executiveOrder": "Executive Order 14247",
+    "dateIssued": "March 25, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can require agencies to modernize payment systems and move away from paper checks under existing financial authority.",
+    "constitutionalIssues": "Legal Issues: Executive Authority, Spending Clause, Accessibility and Equity",
+    "link": "https://www.federalregister.gov/executive-order/14247"
+  },
+  {
+    "actionName": "Restrict Federal Contracts and Access for Jenner & Block",
+    "executiveOrder": "Executive Order 14246",
+    "dateIssued": "March 25, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can review and suspend federal contracts and access, but targeting a specific firm may violate due process.",
+    "constitutionalIssues": "Legal Issues: Due Process (5th Amendment), Equal Protection, Viewpoint Discrimination",
+    "link": "https://www.federalregister.gov/executive-order/14246"
+  },
+  {
+    "actionName": "Impose Tariffs on Countries That Buy Venezuelan Oil",
+    "executiveOrder": "Executive Order 14245",
+    "dateIssued": "March 24, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: Under IEEPA and national emergency powers, the President can impose tariffs tied to national security concerns.",
+    "constitutionalIssues": "Legal Issues: Commerce Clause, Foreign Affairs Power, Delegation of Trade Authority",
+    "link": "https://www.federalregister.gov/executive-order/14245"
+  },
+  {
+    "actionName": "Cancel Restrictions on Paul Weiss After Law Firm Agrees to Policy Changes",
+    "executiveOrder": "Executive Order 14244",
+    "dateIssued": "March 21, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can revoke a prior executive order, especially when conditions have changed or been addressed voluntarily.",
+    "constitutionalIssues": "Legal Issues: Executive Authority",
+    "link": "https://www.federalregister.gov/executive-order/14244"
+  },
+  {
+    "actionName": "Expand Federal Access to State and Agency Data for Policy Enforcement",
+    "executiveOrder": "Executive Order 14243",
+    "dateIssued": "March 20, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can encourage data sharing, but access to certain state records or private data may be restricted by law.",
+    "constitutionalIssues": "Legal Issues: Federalism, Privacy Protections, Separation of Powers",
+    "link": "https://www.federalregister.gov/executive-order/14243"
+  },
+  {
+    "actionName": "Shut Down the Department of Education and Transfer Powers to States",
+    "executiveOrder": "Executive Order 14242",
+    "dateIssued": "March 20, 2025",
+    "verdict": "No, he can't.",
+    "explanation": "Explanation: Only Congress can eliminate a Cabinet department like the Department of Education.",
+    "constitutionalIssues": "Legal Issues: Separation of Powers, 10th Amendment, Statutory Mandates",
+    "link": "https://www.federalregister.gov/executive-order/14242"
+  },
+  {
+    "actionName": "Expand Domestic Mining by Speeding Up Permits and Using Federal Land",
+    "executiveOrder": "Executive Order 14241",
+    "dateIssued": "March 20, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can direct faster permitting and use of federal land, but major land use or environmental changes may need Congress.",
+    "constitutionalIssues": "Legal Issues: Property Clause, Environmental Law, Defense Production Act Authority",
+    "link": "https://www.federalregister.gov/executive-order/14241"
+  },
+  {
+    "actionName": "Consolidate Government Purchasing Under One Federal Agency",
+    "executiveOrder": "Executive Order 14240",
+    "dateIssued": "March 20, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can reorganize how federal agencies buy goods and services, as long as it's allowed by law.",
+    "constitutionalIssues": "Legal Issues: Executive Authority, Procurement Law",
+    "link": "https://www.federalregister.gov/executive-order/14240"
+  },
+  {
     "actionName": "Shift Emergency Planning to State and Local Governments",
     "executiveOrder": "Executive Order 14239",
     "dateIssued": "March 18, 2025",
     "verdict": "Yes, he can.",
     "explanation": "Explanation: The President can change how the federal government plans for emergencies and support more local control.",
-    "constitutionalIssues": "Constitutional Issues: Executive Authority, Federalism",
+    "constitutionalIssues": "Legal Issues: Executive Authority, Federalism",
     "link": "https://www.federalregister.gov/executive-order/14239"
   },
   {
@@ -15,7 +105,7 @@
     "dateIssued": "March 14, 2025",
     "verdict": "Maybe, he can.",
     "explanation": "Explanation: The President can reduce certain parts of federal agencies but cannot shut down parts that are required by law without Congress.",
-    "constitutionalIssues": "Constitutional Issues: Separation of Powers, Appropriations Clause",
+    "constitutionalIssues": "Legal Issues: Separation of Powers, Appropriations Clause",
     "link": "https://www.federalregister.gov/executive-order/14238"
   },
   {
@@ -24,7 +114,7 @@
     "dateIssued": "March 14, 2025",
     "verdict": "Maybe, he can.",
     "explanation": "Explanation: The President can review contracts and security access, but targeting specific firms raises legal concerns about fairness and discrimination.",
-    "constitutionalIssues": "Constitutional Issues: Due Process (5th Amendment), Equal Protection, Separation of Powers",
+    "constitutionalIssues": "Legal Issues: Due Process (5th Amendment), Equal Protection, Separation of Powers",
     "link": "https://www.federalregister.gov/executive-order/14237"
   },
   {
@@ -33,7 +123,7 @@
     "dateIssued": "March 14, 2025",
     "verdict": "Yes, he can.",
     "explanation": "Explanation: The President can revoke previous executive orders unless they rely on laws that require congressional action to change.",
-    "constitutionalIssues": "Constitutional Issues: Executive Authority, Separation of Powers",
+    "constitutionalIssues": "Legal Issues: Executive Authority, Separation of Powers",
     "link": "https://www.federalregister.gov/executive-order/14236"
   },
   {
@@ -42,7 +132,7 @@
     "dateIssued": "March 7, 2025",
     "verdict": "Maybe, he can.",
     "explanation": "Explanation: The President can direct agency rule changes but cannot unilaterally alter statutory loan forgiveness terms without congressional approval.",
-    "constitutionalIssues": "Constitutional Issues: Spending Clause, Separation of Powers",
+    "constitutionalIssues": "Legal Issues: Spending Clause, Separation of Powers",
     "link": "https://www.federalregister.gov/executive-order/14235"
   },
   {
@@ -51,7 +141,7 @@
     "dateIssued": "March 7, 2025",
     "verdict": "Yes, he can.",
     "explanation": "Explanation: The President can create task forces to coordinate federal efforts for major international events.",
-    "constitutionalIssues": "Constitutional Issues: Executive Authority",
+    "constitutionalIssues": "Legal Issues: Executive Authority",
     "link": "https://www.federalregister.gov/executive-order/14234"
   },
   {
