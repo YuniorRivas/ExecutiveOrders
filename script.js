@@ -1,6 +1,195 @@
 // Sample data array for the cards
   const cardData = [
   {
+    "actionName": "Require Sunset Reviews for Federal Energy Regulations",
+    "executiveOrder": "Executive Order 14270",
+    "dateIssued": "April 9, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can require agencies to review and revise energy regulations, but automatic expiration of rules without Congressional input may exceed executive authority.",
+    "constitutionalIssues": "Legal Issues: Administrative Procedure Act, Nondelegation Doctrine, Separation of Powers",
+    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06466.pdf"
+  },
+  {
+    "actionName": "Launch National Initiative to Expand U.S. Maritime and Shipbuilding Industries",
+    "executiveOrder": "Executive Order 14269",
+    "dateIssued": "April 9, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can initiate planning and propose legislative support for maritime development, but actual implementation relies on Congressional funding and trade law limits.",
+    "constitutionalIssues": "Legal Issues: Spending Clause, Commerce Clause, Federalism, Separation of Powers",
+    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06465.pdf"
+  },
+  {
+    "actionName": "Restructure Foreign Military Sales and Arms Export Review Processes",
+    "executiveOrder": "Executive Order 14268",
+    "dateIssued": "April 9, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President has broad discretion in managing arms transfers and diplomatic engagement, but changes to statutory thresholds require Congressional action.",
+    "constitutionalIssues": "Legal Issues: Foreign Affairs Power, Arms Export Control Act, Congressional Oversight",
+    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06464.pdf"
+  },
+  {
+    "actionName": "Order Federal Agencies to Identify and Repeal Anti-Competitive Rules",
+    "executiveOrder": "Executive Order 14267",
+    "dateIssued": "April 9, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can direct agencies to review and propose changes to regulations, though actual repeal requires adherence to legal procedures.",
+    "constitutionalIssues": "Legal Issues: Administrative Procedure Act, Regulatory Authority, Separation of Powers",
+    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06463.pdf"
+  },
+  {
+    "actionName": "Increase Tariffs on Chinese Imports and Adjust Duties for Allies",
+    "executiveOrder": "Executive Order 14266",
+    "dateIssued": "April 9, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can modify tariff rates under IEEPA and trade law in response to national security threats and foreign retaliation.",
+    "constitutionalIssues": "Legal Issues: Trade Promotion Authority, IEEPA, Commerce Clause",
+    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06462.pdf"
+  },
+  {
+    "actionName": "Reform Pentagon Acquisition Practices and Modernize Procurement",
+    "executiveOrder": "Executive Order 14265",
+    "dateIssued": "April 9, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can direct internal reviews and reforms of defense acquisition processes through existing executive and statutory authority.",
+    "constitutionalIssues": "Legal Issues: Executive Authority over Defense, Procurement Law, Oversight and Accountability",
+    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06461.pdf"
+  },
+  {
+    "actionName": "Rescind Federal Showerhead Water Pressure Efficiency Rule",
+    "executiveOrder": "Executive Order 14264",
+    "dateIssued": "April 9, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can direct the Department of Energy to revise or repeal regulations, but must still comply with the Administrative Procedure Act.",
+    "constitutionalIssues": "Legal Issues: Administrative Law, Executive Authority, Environmental Regulation",
+    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06459.pdf"
+  },
+  {
+    "actionName": "Restrict Susman Godfrey LLP From Federal Contracts and Security Access",
+    "executiveOrder": "Executive Order 14263",
+    "dateIssued": "April 9, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can review contracts and clearances, but targeting a specific firm raises due process and equal protection concerns.",
+    "constitutionalIssues": "Legal Issues: Due Process (5th Amendment), Equal Protection, Viewpoint Discrimination",
+    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06458.pdf"
+  },
+  {
+    "actionName": "Expand Federal Emergency Powers to Keep Power Plants Online During Grid Strain",
+    "executiveOrder": "Executive Order 14262",
+    "dateIssued": "April 8, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can invoke Section 202(c) of the Federal Power Act during emergencies to maintain grid reliability.",
+    "constitutionalIssues": "Legal Issues: Federal Energy Act Authority, Environmental Oversight, Emergency Powers",
+    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-14/pdf/2025-06381.pdf"
+  },
+  {
+    "actionName": "Prioritize Coal Development and Classify It as a Strategic Mineral",
+    "executiveOrder": "Executive Order 14261",
+    "dateIssued": "April 8, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can promote coal through agency directives, but major regulatory changes or reclassifications may require statutory backing.",
+    "constitutionalIssues": "Legal Issues: Environmental Law, Property Clause, Statutory Constraints on Resource Classification",
+    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-14/pdf/2025-06380.pdf"
+  },
+  {
+    "actionName": "Challenge State Climate Policies That Affect Fossil Fuel Producers",
+    "executiveOrder": "Executive Order 14260",
+    "dateIssued": "April 8, 2025",
+    "verdict": "No, he can't.",
+    "explanation": "Explanation: The President can direct the DOJ to review state laws, but cannot unilaterally invalidate them; courts must decide constitutionality.",
+    "constitutionalIssues": "Legal Issues: Federalism, 10th Amendment, Commerce Clause, Separation of Powers",
+    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-14/pdf/2025-06379.pdf"
+  },
+  {
+    "actionName": "Raise Tariffs on Low-Cost Imports from China in Response to Retaliation",
+    "executiveOrder": "Executive Order 14259",
+    "dateIssued": "April 8, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President may raise tariffs under national emergency and trade law authorities in response to foreign retaliatory actions.",
+    "constitutionalIssues": "Legal Issues: IEEPA Authority, Commerce Clause, Foreign Affairs Power",
+    "link": "https://www.federalregister.gov/executive-order/14259"
+  },
+  {
+    "actionName": "Extend Federal Delay on TikTok Enforcement and Preempt State Action",
+    "executiveOrder": "Executive Order 14258",
+    "dateIssued": "April 4, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can direct federal enforcement delays, but preempting state action may exceed executive authority absent judicial review.",
+    "constitutionalIssues": "Legal Issues: Separation of Powers, Federalism, Executive Enforcement Discretion",
+    "link": "https://www.federalregister.gov/executive-order/14258"
+  },
+  {
+    "actionName": "Impose Reciprocal Tariffs on U.S. Trading Partners Citing Trade Imbalance Emergency",
+    "executiveOrder": "Executive Order 14257",
+    "dateIssued": "April 2, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can impose tariffs under IEEPA and emergency powers, but broad, across-the-board tariffs risk exceeding statutory authority.",
+    "constitutionalIssues": "Legal Issues: Nondelegation Doctrine, Commerce Clause, Separation of Powers",
+    "link": "https://www.federalregister.gov/executive-order/14257"
+  },
+  {
+    "actionName": "Eliminate Duty-Free Status for Low-Cost Imports from China",
+    "executiveOrder": "Executive Order 14256",
+    "dateIssued": "April 2, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can revoke de minimis tariff exemptions under IEEPA if tied to declared national emergencies.",
+    "constitutionalIssues": "Legal Issues: Trade Law Authority, Due Process, IEEPA Limits",
+    "link": "https://www.federalregister.gov/executive-order/14256"
+  },
+  {
+    "actionName": "Create Office to Attract Large Investments and Streamline Permitting",
+    "executiveOrder": "Executive Order 14255",
+    "dateIssued": "March 31, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can establish administrative offices to coordinate investment promotion and interagency efforts.",
+    "constitutionalIssues": "Legal Issues: Executive Authority, Federal Agency Structure",
+    "link": "https://www.federalregister.gov/executive-order/14255"
+  },
+  {
+    "actionName": "Direct Federal Agencies to Address Ticket Resale Practices",
+    "executiveOrder": "Executive Order 14254",
+    "dateIssued": "March 31, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can direct agencies to examine and regulate online ticketing practices under consumer protection laws.",
+    "constitutionalIssues": "Legal Issues: Executive Authority, Commerce Clause, Consumer Protection",
+    "link": "https://www.federalregister.gov/executive-order/14254"
+  },
+  {
+    "actionName": "Promote Traditional Historical Themes in Federal Monuments and Museums",
+    "executiveOrder": "Executive Order 14253",
+    "dateIssued": "March 27, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can influence federally controlled cultural content, but cannot mandate changes at independent or congressionally chartered institutions.",
+    "constitutionalIssues": "Legal Issues: Free Speech, Federal Oversight, Separation of Powers",
+    "link": "https://www.federalregister.gov/executive-order/14253"
+  },
+  {
+    "actionName": "Expand Federal Oversight of Local Issues in Washington, D.C.",
+    "executiveOrder": "Executive Order 14252",
+    "dateIssued": "March 27, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can coordinate federal support for law enforcement and public maintenance in D.C., but core authority remains under local government per the Home Rule Act.",
+    "constitutionalIssues": "Legal Issues: Federalism, District of Columbia Home Rule, Separation of Powers",
+    "link": "https://www.federalregister.gov/executive-order/14252"
+  },
+  {
+    "actionName": "Remove Collective Bargaining Rights from Certain Federal Agencies",
+    "executiveOrder": "Executive Order 14251",
+    "dateIssued": "March 27, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can limit collective bargaining for national security-related agencies, but sweeping exclusions may face legal and labor challenges.",
+    "constitutionalIssues": "Legal Issues: Labor Law, National Security, Separation of Powers",
+    "link": "https://www.federalregister.gov/executive-order/14251"
+  },
+  {
+    "actionName": "Restrict WilmerHale’s Access to Federal Contracts and Classified Information",
+    "executiveOrder": "Executive Order 14250",
+    "dateIssued": "March 27, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can order a review of federal contracts and clearances, but singling out a law firm may raise constitutional and procurement law concerns.",
+    "constitutionalIssues": "Legal Issues: Due Process (5th Amendment), Procurement Rules, Viewpoint Discrimination",
+    "link": "https://www.federalregister.gov/executive-order/14250"
+  },
+  {
     "actionName": "Strengthen Treasury Oversight of Federal Spending to Prevent Fraud",
     "executiveOrder": "Executive Order 14249",
     "dateIssued": "March 25, 2025",
