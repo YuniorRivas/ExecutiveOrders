@@ -7,7 +7,7 @@
     "verdict": "Maybe, he can.",
     "explanation": "Explanation: The President can require agencies to review and revise energy regulations, but automatic expiration of rules without Congressional input may exceed executive authority.",
     "constitutionalIssues": "Legal Issues: Administrative Procedure Act, Nondelegation Doctrine, Separation of Powers",
-    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06466.pdf"
+    "link": "https://www.govinfo.gov/executive-order/14270"
   },
   {
     "actionName": "Launch National Initiative to Expand U.S. Maritime and Shipbuilding Industries",
@@ -16,7 +16,7 @@
     "verdict": "Maybe, he can.",
     "explanation": "Explanation: The President can initiate planning and propose legislative support for maritime development, but actual implementation relies on Congressional funding and trade law limits.",
     "constitutionalIssues": "Legal Issues: Spending Clause, Commerce Clause, Federalism, Separation of Powers",
-    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06465.pdf"
+    "link": "https://www.govinfo.gov/executive-order/14269"
   },
   {
     "actionName": "Restructure Foreign Military Sales and Arms Export Review Processes",
@@ -25,7 +25,7 @@
     "verdict": "Yes, he can.",
     "explanation": "Explanation: The President has broad discretion in managing arms transfers and diplomatic engagement, but changes to statutory thresholds require Congressional action.",
     "constitutionalIssues": "Legal Issues: Foreign Affairs Power, Arms Export Control Act, Congressional Oversight",
-    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06464.pdf"
+    "link": "https://www.govinfo.gov/executive-order/14268"
   },
   {
     "actionName": "Order Federal Agencies to Identify and Repeal Anti-Competitive Rules",
@@ -34,7 +34,7 @@
     "verdict": "Yes, he can.",
     "explanation": "Explanation: The President can direct agencies to review and propose changes to regulations, though actual repeal requires adherence to legal procedures.",
     "constitutionalIssues": "Legal Issues: Administrative Procedure Act, Regulatory Authority, Separation of Powers",
-    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06463.pdf"
+    "link": "https://www.govinfo.gov/executive-order/14267"
   },
   {
     "actionName": "Increase Tariffs on Chinese Imports and Adjust Duties for Allies",
@@ -43,7 +43,7 @@
     "verdict": "Yes, he can.",
     "explanation": "Explanation: The President can modify tariff rates under IEEPA and trade law in response to national security threats and foreign retaliation.",
     "constitutionalIssues": "Legal Issues: Trade Promotion Authority, IEEPA, Commerce Clause",
-    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06462.pdf"
+    "link": "https://www.govinfo.gov/executive-order/14266"
   },
   {
     "actionName": "Reform Pentagon Acquisition Practices and Modernize Procurement",
@@ -52,7 +52,7 @@
     "verdict": "Yes, he can.",
     "explanation": "Explanation: The President can direct internal reviews and reforms of defense acquisition processes through existing executive and statutory authority.",
     "constitutionalIssues": "Legal Issues: Executive Authority over Defense, Procurement Law, Oversight and Accountability",
-    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06461.pdf"
+    "link": "https://www.govinfo.gov/executive-order/14265"
   },
   {
     "actionName": "Rescind Federal Showerhead Water Pressure Efficiency Rule",
@@ -61,7 +61,7 @@
     "verdict": "Maybe, he can.",
     "explanation": "Explanation: The President can direct the Department of Energy to revise or repeal regulations, but must still comply with the Administrative Procedure Act.",
     "constitutionalIssues": "Legal Issues: Administrative Law, Executive Authority, Environmental Regulation",
-    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06459.pdf"
+    "link": "https://www.govinfo.gov/executive-order/14264"
   },
   {
     "actionName": "Restrict Susman Godfrey LLP From Federal Contracts and Security Access",
@@ -70,7 +70,7 @@
     "verdict": "Maybe, he can.",
     "explanation": "Explanation: The President can review contracts and clearances, but targeting a specific firm raises due process and equal protection concerns.",
     "constitutionalIssues": "Legal Issues: Due Process (5th Amendment), Equal Protection, Viewpoint Discrimination",
-    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-15/pdf/2025-06458.pdf"
+    "link": "https://www.govinfo.gov/executive-order/14263"
   },
   {
     "actionName": "Expand Federal Emergency Powers to Keep Power Plants Online During Grid Strain",
@@ -79,7 +79,7 @@
     "verdict": "Yes, he can.",
     "explanation": "Explanation: The President can invoke Section 202(c) of the Federal Power Act during emergencies to maintain grid reliability.",
     "constitutionalIssues": "Legal Issues: Federal Energy Act Authority, Environmental Oversight, Emergency Powers",
-    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-14/pdf/2025-06381.pdf"
+    "link": "https://www.govinfo.gov/executive-order/14262"
   },
   {
     "actionName": "Prioritize Coal Development and Classify It as a Strategic Mineral",
@@ -88,7 +88,7 @@
     "verdict": "Maybe, he can.",
     "explanation": "Explanation: The President can promote coal through agency directives, but major regulatory changes or reclassifications may require statutory backing.",
     "constitutionalIssues": "Legal Issues: Environmental Law, Property Clause, Statutory Constraints on Resource Classification",
-    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-14/pdf/2025-06380.pdf"
+    "link": "https://www.govinfo.gov/executive-order/14261"
   },
   {
     "actionName": "Challenge State Climate Policies That Affect Fossil Fuel Producers",
@@ -97,7 +97,7 @@
     "verdict": "No, he can't.",
     "explanation": "Explanation: The President can direct the DOJ to review state laws, but cannot unilaterally invalidate them; courts must decide constitutionality.",
     "constitutionalIssues": "Legal Issues: Federalism, 10th Amendment, Commerce Clause, Separation of Powers",
-    "link": "https://www.govinfo.gov/content/pkg/FR-2025-04-14/pdf/2025-06379.pdf"
+    "link": "https://www.govinfo.gov/executive-order/14260"
   },
   {
     "actionName": "Raise Tariffs on Low-Cost Imports from China in Response to Retaliation",
