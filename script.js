@@ -118,7 +118,7 @@
     "link": "https://www.federalregister.gov/executive-order/14258"
   },
   {
-    "actionName": "Impose Reciprocal Tariffs on U.S. Trading Partners Citing Trade Imbalance Emergency",
+    "actionName": "Impose Tariffs on U.S. Trading Partners Citing Trade Imbalance Emergency",
     "executiveOrder": "Executive Order 14257",
     "dateIssued": "April 2, 2025",
     "verdict": "Maybe, he can.",
